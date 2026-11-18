@@ -1,0 +1,1201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TKGP35EZDF"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-TKGP35EZDF");
+    </script>
+    <title>Code5in | Professional Portfolio Website Design</title>
+    <meta
+      name="description"
+      content="Create a professional portfolio website with Code5in. Showcase your skills, experience, projects, achievements and services with a modern responsive portfolio website."
+    />
+    <meta
+      name="keywords"
+      content="portfolio website, portfolio templates, Code5in, premium portfolios, professional website, freelancer portfolio, doctor portfolio, lawyer portfolio, architect portfolio, business website"
+    />
+    <meta name="author" content="Code5in" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+    <link rel="canonical" href="https://code5in.site/" />
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Code5in | Professional Portfolio Website Design"
+    />
+    <meta
+      property="og:description"
+      content="Create a professional portfolio website to showcase your skills, experience, projects, achievements and services."
+    />
+    <meta property="og:url" content="https://code5in.site/" />
+    <meta property="og:site_name" content="Code5in" />
+    <!-- og:image — Add your social sharing image URL below when available -->
+    <!-- <meta property="og:image" content="https://code5in.site/og-image.png" /> -->
+    <!-- Twitter / X Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Code5in | Professional Portfolio Website Design"
+    />
+    <meta
+      name="twitter:description"
+      content="Create a professional portfolio website with Code5in and build your professional online presence."
+    />
+    <!-- twitter:image — Add your social sharing image URL below when available -->
+    <!-- <meta name="twitter:image" content="https://code5in.site/og-image.png" /> -->
+    <!-- Favicon & Brand Icons -->
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./favicon-16x16.png"
+    />
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./apple-touch-icon.png"
+    />
+    <link rel="manifest" href="./site.webmanifest" />
+    <meta name="theme-color" content="#080A12" />
+    <!-- Structured Data / JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Code5in",
+        "url": "https://code5in.site/",
+        "description": "Code5in creates professional portfolio websites for professionals, freelancers, creators and businesses.",
+        "email": "code555in@gmail.com",
+        "telephone": "+919747506274",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kozhikode",
+          "addressRegion": "Kerala",
+          "addressCountry": "IN"
+        }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+      <div class="loader-content">
+        <div class="loader-logo">
+          <span class="loader-code">Code</span><span class="loader-five">5</span
+          ><span class="loader-in">in</span>
+        </div>
+        <div class="loader-bar">
+          <div class="loader-bar-fill"></div>
+        </div>
+        <p class="loader-text">Loading Premium Experience...</p>
+      </div>
+    </div>
+
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navigation -->
+    <header>
+      <nav class="navbar" id="navbar" aria-label="Main navigation">
+        <div class="nav-container">
+          <a href="#home" class="nav-logo">
+            <span class="logo-code">Code</span><span class="logo-five">5</span
+            ><span class="logo-in">in</span>
+          </a>
+          <ul class="nav-links" id="navLinks">
+            <li class="mobile-nav-header">
+              <span class="mobile-nav-tag">Menu</span>
+            </li>
+            <li>
+              <a href="#home" class="nav-link active"
+                ><span class="nav-num">01</span><span>Home</span></a
+              >
+            </li>
+            <li>
+              <a href="#templates" class="nav-link"
+                ><span class="nav-num">02</span><span>Templates</span></a
+              >
+            </li>
+            <li>
+              <a href="#workflow" class="nav-link"
+                ><span class="nav-num">03</span><span>Workflow</span></a
+              >
+            </li>
+            <li>
+              <a href="#about" class="nav-link"
+                ><span class="nav-num">04</span><span>About</span></a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="nav-link"
+                ><span class="nav-num">05</span><span>Contact</span></a
+              >
+            </li>
+            <li class="mobile-nav-cta-wrapper">
+              <a href="#contact" class="mobile-nav-btn">
+                <span>Get Custom Website</span>
+                <i class="fas fa-sparkles"></i>
+              </a>
+            </li>
+          </ul>
+          <a href="#contact" class="nav-cta">Get Started</a>
+          <button
+            class="nav-toggle"
+            id="navToggle"
+            aria-label="Toggle navigation menu"
+          >
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+            <span class="toggle-line"></span>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero" id="home">
+        <canvas class="hero-particles" id="heroParticles"></canvas>
+        <div class="hero-grid-bg"></div>
+        <div class="hero-gradient-blob blob-1"></div>
+        <div class="hero-gradient-blob blob-2"></div>
+        <div class="hero-gradient-blob blob-3"></div>
+        <div class="hero-floating-shapes">
+          <div class="floating-shape shape-1"></div>
+          <div class="floating-shape shape-2"></div>
+          <div class="floating-shape shape-3"></div>
+          <div class="floating-shape shape-4"></div>
+          <div class="floating-shape shape-5"></div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-badge fade-up">
+            <span class="badge-dot"></span>
+            <span>Premium Portfolio Agency</span>
+          </div>
+          <h1 class="hero-headline">
+            <span class="headline-word">PROFESSIONAL</span>
+            <span class="headline-word">PORTFOLIO</span>
+            <span class="headline-word">WEBSITES</span>
+            <span class="headline-word headline-accent">FOR EVERY</span>
+            <span class="headline-word headline-accent2 hero-typewriter-wrap"
+              ><span id="heroTypedText">PROFESSION.</span
+              ><span class="hero-cursor">|</span></span
+            >
+          </h1>
+          <p class="hero-subheading fade-up">
+            Explore professionally designed portfolio websites built for modern
+            professionals and businesses. 20+ premium templates crafted by
+            Code5in.
+          </p>
+          <div class="hero-buttons fade-up">
+            <a href="#templates" class="btn btn-primary">
+              <span>Explore Templates</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get Custom Website</span>
+              <i class="fas fa-sparkles"></i>
+            </a>
+            <button
+              class="hero-share-btn"
+              id="heroShareBtn"
+              aria-label="Share Website"
+              title="Share Website"
+            >
+              <i class="fas fa-share-nodes"></i>
+            </button>
+          </div>
+          <div class="hero-stats fade-up">
+            <div class="hero-stat">
+              <span class="hero-stat-number">20+</span>
+              <span class="hero-stat-label">Templates</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="hero-stat-number">150+</span>
+              <span class="hero-stat-label">Projects</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="hero-stat-number">99%</span>
+              <span class="hero-stat-label">Satisfaction</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-scroll-indicator">
+          <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+          </div>
+          <span>Scroll to explore</span>
+        </div>
+      </section>
+
+      <!-- Why You Need A Portfolio Section -->
+      <section class="why-portfolio-section" id="why-portfolio">
+        <div class="why-portfolio-bg-glow"></div>
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag"
+              ><i class="fas fa-sparkles"></i> Value & Impact</span
+            >
+            <h2 class="section-title">
+              Why You Need a <span class="gradient-text">Portfolio</span>
+            </h2>
+            <p class="section-subtitle">
+              In today's digital age, your portfolio is your resume. Make it
+              count with a design that reflects your excellence.
+            </p>
+          </div>
+
+          <div class="why-portfolio-grid stagger-container">
+            <div
+              class="why-portfolio-card stagger-item"
+              data-tilt
+              data-tilt-max="6"
+              data-tilt-speed="400"
+            >
+              <div class="why-card-shine"></div>
+              <div class="why-card-top">
+                <div class="why-card-icon icon-glow-purple">
+                  <i class="fas fa-shield-halved"></i>
+                </div>
+                <span class="why-card-num">01</span>
+              </div>
+              <h3>First Impression & Trust</h3>
+              <p>
+                A professional website builds instant credibility and sets you
+                apart from competitors before clients even speak to you.
+              </p>
+              <div class="why-card-badge">Instant Trust ⚡</div>
+            </div>
+
+            <div
+              class="why-portfolio-card stagger-item"
+              data-tilt
+              data-tilt-max="6"
+              data-tilt-speed="400"
+            >
+              <div class="why-card-shine"></div>
+              <div class="why-card-top">
+                <div class="why-card-icon icon-glow-cyan">
+                  <i class="fas fa-bullseye"></i>
+                </div>
+                <span class="why-card-num">02</span>
+              </div>
+              <h3>Showcase Real Results</h3>
+              <p>
+                Highlight your best projects, case studies, client testimonials,
+                and skills with high-visual impact layouts.
+              </p>
+              <div class="why-card-badge">High Impact 📈</div>
+            </div>
+
+            <div
+              class="why-portfolio-card stagger-item"
+              data-tilt
+              data-tilt-max="6"
+              data-tilt-speed="400"
+            >
+              <div class="why-card-shine"></div>
+              <div class="why-card-top">
+                <div class="why-card-icon icon-glow-green">
+                  <i class="fas fa-chart-line"></i>
+                </div>
+                <span class="why-card-num">03</span>
+              </div>
+              <h3>24/7 Digital Presence</h3>
+              <p>
+                Your portfolio works for you around the clock, attracting leads,
+                clients, and career opportunities automatically.
+              </p>
+              <div class="why-card-badge">Auto Leads 🚀</div>
+            </div>
+
+            <div
+              class="why-portfolio-card stagger-item"
+              data-tilt
+              data-tilt-max="6"
+              data-tilt-speed="400"
+            >
+              <div class="why-card-shine"></div>
+              <div class="why-card-top">
+                <div class="why-card-icon icon-glow-amber">
+                  <i class="fas fa-gem"></i>
+                </div>
+                <span class="why-card-num">04</span>
+              </div>
+              <h3>Higher Pricing & Value</h3>
+              <p>
+                Command higher rates for your services by presenting your work
+                in a high-end, agency-level digital showcase.
+              </p>
+              <div class="why-card-badge">3x Client Value 💎</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Templates Section -->
+      <section class="templates-section" id="templates">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag">Our Templates</span>
+            <h2 class="section-title">
+              Premium Portfolio <span class="gradient-text">Templates</span>
+            </h2>
+            <p class="section-subtitle">
+              Handcrafted portfolio websites designed for every profession. Each
+              template is fully customizable and optimized for performance.
+            </p>
+            <div class="currency-toggle-wrapper">
+              <div
+                class="currency-tip"
+                id="currencyTip"
+                role="status"
+                aria-hidden="true"
+              >
+                <button
+                  type="button"
+                  class="currency-tip-close"
+                  id="currencyTipClose"
+                  aria-label="Dismiss currency notification"
+                >
+                  &times;
+                </button>
+                <strong>💰 Select your currency</strong>
+                <span>Choose ₹ INR or $ USD to view prices.</span>
+              </div>
+              <div
+                class="currency-toggle"
+                data-active-currency="INR"
+                role="group"
+                aria-label="Currency Switcher"
+              >
+                <button
+                  type="button"
+                  class="currency-btn active"
+                  data-currency="INR"
+                  aria-pressed="true"
+                >
+                  <span class="currency-flag">₹</span>
+                  <span class="currency-text">INR</span>
+                </button>
+                <button
+                  type="button"
+                  class="currency-btn"
+                  data-currency="USD"
+                  aria-pressed="false"
+                >
+                  <span class="currency-flag">$</span>
+                  <span class="currency-text">USD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filter & Search -->
+          <div class="templates-controls fade-up">
+            <div class="filter-pills" id="filterPills">
+              <button class="filter-pill active" data-filter="all">All</button>
+              <button class="filter-pill" data-filter="business">
+                Business
+              </button>
+              <button class="filter-pill" data-filter="finance">Finance</button>
+              <button class="filter-pill" data-filter="healthcare">
+                Healthcare
+              </button>
+              <button class="filter-pill" data-filter="creative">
+                Creative
+              </button>
+              <button class="filter-pill" data-filter="professional">
+                Professional
+              </button>
+              <button class="filter-pill" data-filter="multipurpose">
+                Multi Purpose
+              </button>
+            </div>
+            <div class="search-box">
+              <i class="fas fa-search search-icon"></i>
+              <input
+                type="text"
+                class="search-input"
+                id="templateSearch"
+                placeholder="Search templates..."
+                autocomplete="off"
+              />
+            </div>
+          </div>
+
+          <!-- Templates Grid -->
+          <div class="templates-grid" id="templatesGrid">
+            <!-- Dynamically populated by JavaScript -->
+          </div>
+
+          <!-- Show More Button -->
+          <div class="show-more-wrapper fade-up" id="showMoreWrapper">
+            <button class="btn btn-show-more" id="showMoreBtn">
+              <span>Show More Templates</span>
+              <i class="fas fa-chevron-down"></i>
+            </button>
+          </div>
+
+          <div class="template-download-section fade-up">
+            <div class="section-header">
+              <h2 class="section-title">
+                All Templates – Full Details &amp; Download
+              </h2>
+              <p class="section-subtitle">
+                Download the complete pricing and template details in USD or
+                INR.
+              </p>
+            </div>
+            <div class="template-card template-download-card">
+              <div class="card-shine"></div>
+              <div class="card-body">
+                <h3 class="template-name">Complete Template Details</h3>
+                <p class="template-profession">All 20 Templates</p>
+                <p class="template-style">
+                  View all 20 templates, professions, previous prices, current
+                  prices, and offer percentages in the complete pricing
+                  documents.
+                </p>
+              </div>
+              <div class="card-footer template-download-actions">
+                <a
+                  href="./analays%20dollar.pdf"
+                  class="btn-preview"
+                  download="analays dollar.pdf"
+                  >Download in USD</a
+                >
+                <a
+                  href="./analays%20ruppee.pdf"
+                  class="btn-details"
+                  download="analays rupee.pdf"
+                  >Download in INR</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Customization Section -->
+      <section class="customization-section" id="customization">
+        <div class="container">
+          <div class="custom-wrapper">
+            <div class="custom-content fade-left">
+              <span class="section-tag">Customization</span>
+              <h2 class="section-title">
+                Need A Custom <span class="gradient-text">Portfolio?</span>
+              </h2>
+              <p class="custom-text">
+                Every portfolio can be fully customized and rebuilt for your
+                profession, business, personal brand, or company requirements.
+                Our team delivers tailor-made solutions that perfectly represent
+                your unique identity.
+              </p>
+              <a href="#contact" class="btn btn-primary">
+                <span>Request Custom Portfolio</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+            </div>
+            <div class="custom-features fade-right">
+              <div class="custom-feature-card">
+                <div class="feature-icon"><i class="fas fa-palette"></i></div>
+                <div class="feature-info">
+                  <h4>Custom Design</h4>
+                  <p>Unique layouts tailored to your brand identity</p>
+                </div>
+              </div>
+              <div class="custom-feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-fingerprint"></i>
+                </div>
+                <div class="feature-info">
+                  <h4>Custom Branding</h4>
+                  <p>Logo, colors, and typography matched to you</p>
+                </div>
+              </div>
+              <div class="custom-feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-layer-group"></i>
+                </div>
+                <div class="feature-info">
+                  <h4>Extra Pages</h4>
+                  <p>Add as many pages as your project needs</p>
+                </div>
+              </div>
+              <div class="custom-feature-card">
+                <div class="feature-icon">
+                  <i class="fas fa-wand-magic-sparkles"></i>
+                </div>
+                <div class="feature-info">
+                  <h4>Advanced Animations</h4>
+                  <p>Premium GSAP-powered interactions</p>
+                </div>
+              </div>
+              <div class="custom-feature-card">
+                <div class="feature-icon"><i class="fas fa-plug"></i></div>
+                <div class="feature-info">
+                  <h4>Custom Integrations</h4>
+                  <p>APIs, forms, analytics, and third-party tools</p>
+                </div>
+              </div>
+              <div class="custom-feature-card">
+                <div class="feature-icon"><i class="fas fa-shapes"></i></div>
+                <div class="feature-info">
+                  <h4>Unique Layouts</h4>
+                  <p>One-of-a-kind designs built from scratch</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Workflow Section -->
+      <section class="workflow-section" id="workflow">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag">Our Workflow</span>
+            <h2 class="section-title">
+              How It Works —
+              <span class="gradient-text">Simple & Fast</span> Process
+            </h2>
+            <p class="section-subtitle">
+              Get your professional portfolio website ready in 5 easy steps.
+            </p>
+          </div>
+          <div class="workflow-timeline" id="workflowTimeline">
+            <div class="workflow-line"></div>
+            <div class="workflow-progress-line" id="workflowProgressLine"></div>
+
+            <div class="workflow-step" data-step="1">
+              <div class="step-content text-right step-card-left">
+                <span class="step-number-tag">01.</span>
+                <h3>Choose Design</h3>
+                <p>
+                  Browse our premium template library and select the aesthetic
+                  that best represents your personal brand and career goals.
+                </p>
+              </div>
+              <div class="step-badge">1</div>
+              <div class="step-empty"></div>
+            </div>
+
+            <div class="workflow-step" data-step="2">
+              <div class="step-empty"></div>
+              <div class="step-badge">2</div>
+              <div class="step-content text-left step-card-right">
+                <span class="step-number-tag">02.</span>
+                <h3>Send Content</h3>
+                <p>
+                  Share your resume, project screenshots, and personal bio. We
+                  handle all the formatting and organization for maximum impact.
+                </p>
+              </div>
+            </div>
+
+            <div class="workflow-step" data-step="3">
+              <div class="step-content text-right step-card-left">
+                <span class="step-number-tag">03.</span>
+                <h3>Development</h3>
+                <p>
+                  Our expert developers build your site with clean, semantic
+                  code, ensuring it's fast, responsive, and SEO-friendly.
+                </p>
+              </div>
+              <div class="step-badge">3</div>
+              <div class="step-empty"></div>
+            </div>
+
+            <div class="workflow-step" data-step="4">
+              <div class="step-empty"></div>
+              <div class="step-badge">4</div>
+              <div class="step-content text-left step-card-right">
+                <span class="step-number-tag">04.</span>
+                <h3>Review & Refine</h3>
+                <p>
+                  Preview your live draft, request edits or custom enhancements,
+                  and refine all details until your portfolio is 100% perfect.
+                </p>
+              </div>
+            </div>
+
+            <div class="workflow-step" data-step="5">
+              <div class="step-content text-right step-card-left">
+                <span class="step-number-tag">05.</span>
+                <h3>Go Live</h3>
+                <p>
+                  We launch your website on your custom domain with fast
+                  hosting, SSL security, and full search engine optimization.
+                </p>
+              </div>
+              <div class="step-badge">5</div>
+              <div class="step-empty"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section class="about-section" id="about">
+        <div class="about-bg-glow"></div>
+        <div class="container">
+          <div class="about-grid">
+            <!-- Left: Agency Story & Mission -->
+            <div class="about-content fade-left">
+              <span class="section-tag"
+                ><i class="fas fa-sparkles"></i> About Code5in</span
+              >
+              <h2 class="section-title">
+                Crafting Digital Excellence For
+                <span class="gradient-text">Every Profession</span>
+              </h2>
+              <p class="about-description">
+                Code5in is a premium web development studio specializing in
+                high-performance portfolio websites. We empower freelancers,
+                creators, doctors, lawyers, and entrepreneurs with stunning
+                digital identities that convert visitors into clients.
+              </p>
+
+              <div class="about-highlights">
+                <div class="about-highlight-item">
+                  <div class="highlight-icon"><i class="fas fa-check"></i></div>
+                  <span>Handcrafted Designs — Zero Generic Templates</span>
+                </div>
+                <div class="about-highlight-item">
+                  <div class="highlight-icon"><i class="fas fa-check"></i></div>
+                  <span>Ultra-Fast Loading & Modern Animations</span>
+                </div>
+                <div class="about-highlight-item">
+                  <div class="highlight-icon"><i class="fas fa-check"></i></div>
+                  <span>Fully Customized to Your Personal Brand</span>
+                </div>
+              </div>
+
+              <a
+                href="https://wa.me/919747506274?text=Hi%20Code5in,%20I'd%20like%20to%20learn%20more%20about%20your%20services"
+                class="btn btn-primary"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Get In Touch</span>
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+
+            <!-- Right: Stats Grid -->
+            <div class="stats-grid stagger-container fade-right">
+              <div
+                class="stat-card stagger-item"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="400"
+              >
+                <div class="stat-card-shine"></div>
+                <div class="stat-top">
+                  <div class="stat-icon icon-glow-purple">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <span class="stat-badge">Templates</span>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-number" data-target="20">0</span>
+                  <span class="stat-suffix">+</span>
+                </div>
+                <div class="stat-label">Templates Created</div>
+              </div>
+
+              <div
+                class="stat-card stagger-item"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="400"
+              >
+                <div class="stat-card-shine"></div>
+                <div class="stat-top">
+                  <div class="stat-icon icon-glow-cyan">
+                    <i class="fas fa-rocket"></i>
+                  </div>
+                  <span class="stat-badge">Delivered</span>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-number" data-target="150">0</span>
+                  <span class="stat-suffix">+</span>
+                </div>
+                <div class="stat-label">Projects Delivered</div>
+              </div>
+
+              <div
+                class="stat-card stagger-item"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="400"
+              >
+                <div class="stat-card-shine"></div>
+                <div class="stat-top">
+                  <div class="stat-icon icon-glow-green">
+                    <i class="fas fa-heart"></i>
+                  </div>
+                  <span class="stat-badge">Satisfaction</span>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-number" data-target="99">0</span>
+                  <span class="stat-suffix">%</span>
+                </div>
+                <div class="stat-label">Client Satisfaction</div>
+              </div>
+
+              <div
+                class="stat-card stagger-item"
+                data-tilt
+                data-tilt-max="6"
+                data-tilt-speed="400"
+              >
+                <div class="stat-card-shine"></div>
+                <div class="stat-top">
+                  <div class="stat-icon icon-glow-amber">
+                    <i class="fas fa-award"></i>
+                  </div>
+                  <span class="stat-badge">Experience</span>
+                </div>
+                <div class="stat-number-wrapper">
+                  <span class="stat-number" data-target="5">0</span>
+                  <span class="stat-suffix">+</span>
+                </div>
+                <div class="stat-label">Years Experience</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose Code5in -->
+      <section class="why-section" id="why">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag">Why Code5in</span>
+            <h2 class="section-title">
+              Why Choose <span class="gradient-text">Code5in?</span>
+            </h2>
+            <p class="section-subtitle">
+              We combine premium design, cutting-edge technology, and
+              personalized service to deliver portfolio websites that stand out.
+            </p>
+          </div>
+          <div class="why-grid stagger-container">
+            <div class="why-card stagger-item">
+              <div class="why-icon"><i class="fas fa-gem"></i></div>
+              <h3>Unique Designs</h3>
+              <p>
+                Every template is handcrafted with original designs — no generic
+                themes or cookie-cutter layouts.
+              </p>
+            </div>
+            <div class="why-card stagger-item">
+              <div class="why-icon"><i class="fas fa-bolt"></i></div>
+              <h3>Fast Loading</h3>
+              <p>
+                Optimized for speed with lazy loading, minified assets, and
+                lightweight code for instant page loads.
+              </p>
+            </div>
+            <div class="why-card stagger-item">
+              <div class="why-icon">
+                <i class="fas fa-mobile-screen-button"></i>
+              </div>
+              <h3>Mobile Responsive</h3>
+              <p>
+                Every template is fully responsive and looks flawless on mobile,
+                tablet, laptop, and desktop devices.
+              </p>
+            </div>
+            <div class="why-card stagger-item">
+              <div class="why-icon">
+                <i class="fas fa-magnifying-glass-chart"></i>
+              </div>
+              <h3>SEO Friendly</h3>
+              <p>
+                Built with semantic HTML, meta tags, structured data, and best
+                practices for search engine visibility.
+              </p>
+            </div>
+            <div class="why-card stagger-item">
+              <div class="why-icon"><i class="fas fa-sliders"></i></div>
+              <h3>Customizable</h3>
+              <p>
+                Easily modify colors, fonts, layouts, and content. Every
+                template is designed for effortless customization.
+              </p>
+            </div>
+            <div class="why-card stagger-item">
+              <div class="why-icon"><i class="fas fa-film"></i></div>
+              <h3>Modern Animations</h3>
+              <p>
+                Premium GSAP-powered animations, smooth transitions, and
+                micro-interactions for an engaging experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials Section -->
+      <section class="testimonials-section" id="testimonials">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag">Testimonials</span>
+            <h2 class="section-title">
+              What Our Clients <span class="gradient-text">Say</span>
+            </h2>
+            <p class="section-subtitle">
+              Hear from professionals who transformed their online presence with
+              Code5in.
+            </p>
+          </div>
+          <div class="testimonials-carousel fade-up">
+            <div class="testimonials-track" id="testimonialsTrack">
+              <!-- Dynamically populated by JavaScript -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section class="faq-section" id="faq">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag">FAQ</span>
+            <h2 class="section-title">
+              Frequently Asked <span class="gradient-text">Questions</span>
+            </h2>
+            <p class="section-subtitle">
+              Got questions? We have answers. Find everything you need to know
+              about Code5in.
+            </p>
+          </div>
+          <div class="faq-list" id="faqList">
+            <!-- Dynamically populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-section" id="contact">
+        <div class="container">
+          <div class="section-header fade-up">
+            <span class="section-tag">Contact Us</span>
+            <h2 class="section-title">
+              Let's Build Something <span class="gradient-text">Amazing</span>
+            </h2>
+            <p class="section-subtitle">
+              Ready to get your premium portfolio? Reach out to us and let's
+              bring your vision to life.
+            </p>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-info fade-left">
+              <div class="contact-info-card">
+                <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-details">
+                  <h4>Email Us</h4>
+                  <a href="mailto:code555in@gmail.com">code555in@gmail.com</a>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                <div class="contact-details">
+                  <h4>Call Us</h4>
+                  <a href="tel:+919747506274">+91 9747506274</a>
+                </div>
+              </div>
+              <div class="contact-info-card">
+                <div class="contact-icon">
+                  <i class="fas fa-location-dot"></i>
+                </div>
+                <div class="contact-details">
+                  <h4>Visit Us</h4>
+                  <p>Kozhikode, Kerala, India</p>
+                </div>
+              </div>
+              <div class="contact-social">
+                <a
+                  href="https://www.instagram.com/code5in/"
+                  class="social-link"
+                  aria-label="Instagram"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="Twitter"
+                  ><i class="fab fa-x-twitter"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="social-link" aria-label="GitHub"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </div>
+            </div>
+            <div class="contact-form-wrapper fade-right">
+              <form class="contact-form" id="contactForm">
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="298883f9-d82a-4278-abf4-538b1e3b3883"
+                />
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="New Contact from Code5in Website"
+                />
+                <input
+                  type="hidden"
+                  name="from_name"
+                  value="Code5in Contact Form"
+                />
+                <div class="form-group">
+                  <label for="contactName">Full Name</label>
+                  <input
+                    type="text"
+                    id="contactName"
+                    name="name"
+                    placeholder="Your full name"
+                    required
+                  />
+                </div>
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="contactEmail">Email Address</label>
+                    <input
+                      type="email"
+                      id="contactEmail"
+                      name="email"
+                      placeholder="your@email.com"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="contactPhone">Phone Number</label>
+                    <input
+                      type="tel"
+                      id="contactPhone"
+                      name="phone"
+                      placeholder="+91 XXXXXXXXXX"
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="contactProfession">Your Profession</label>
+                  <input
+                    type="text"
+                    id="contactProfession"
+                    name="profession"
+                    placeholder="e.g., Doctor, Lawyer, Designer"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="contactMessage">Your Message</label>
+                  <textarea
+                    id="contactMessage"
+                    name="message"
+                    rows="5"
+                    placeholder="Tell us about your project..."
+                    required
+                  ></textarea>
+                </div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-submit"
+                  id="submitBtn"
+                >
+                  <span class="btn-text">Send Message</span>
+                  <span class="btn-loading"
+                    ><i class="fas fa-spinner fa-spin"></i> Sending...</span
+                  >
+                  <i class="fas fa-paper-plane btn-icon"></i>
+                </button>
+              </form>
+              <div class="form-success" id="formSuccess">
+                <div class="success-checkmark">
+                  <div class="check-icon">
+                    <span class="icon-line line-tip"></span>
+                    <span class="icon-line line-long"></span>
+                    <div class="icon-circle"></div>
+                    <div class="icon-fix"></div>
+                  </div>
+                </div>
+                <h3>Message Sent Successfully!</h3>
+                <p>
+                  Thank you for reaching out. We'll get back to you within 24
+                  hours.
+                </p>
+                <button class="btn btn-secondary" onclick="resetForm()">
+                  Send Another Message
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#home" class="footer-logo">
+              <span class="logo-code">Code</span><span class="logo-five">5</span
+              ><span class="logo-in">in</span>
+            </a>
+            <p class="footer-description">
+              Premium Portfolio Websites For Every Profession. Crafted with
+              passion, delivered with precision.
+            </p>
+            <div class="footer-social">
+              <a
+                href="https://www.instagram.com/code5in/"
+                class="social-link"
+                aria-label="Instagram"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="Twitter"
+                ><i class="fab fa-x-twitter"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="social-link" aria-label="GitHub"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-links-col">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#templates">Templates</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Templates</h4>
+            <ul>
+              <li>
+                <a href="./template001/files/template001.html"
+                  >NOVA — Universal Portfolio</a
+                >
+              </li>
+              <li>
+                <a href="./template002/files/index.html">CURA — Doctor</a>
+              </li>
+              <li><a href="./template003/">LEXORA — Lawyer</a></li>
+              <li><a href="./template005/">VANTA — Photographer</a></li>
+              <li><a href="./template020/">APEX — Universal</a></li>
+            </ul>
+          </div>
+          <div class="footer-links-col">
+            <h4>Contact Info</h4>
+            <ul class="footer-contact-list">
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:code555in@gmail.com">code555in@gmail.com</a>
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+919747506274">+91 9747506274</a>
+              </li>
+              <li>
+                <i class="fas fa-location-dot"></i> Kozhikode, Kerala, India
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Code5in. All Rights Reserved.</p>
+          <p>
+            Crafted with <i class="fas fa-heart" style="color: #7c5cff"></i> by
+            Code5in
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Template Modal -->
+    <div class="template-modal" id="templateModal">
+      <div class="modal-overlay" id="modalOverlay"></div>
+      <div class="modal-content" id="modalContent">
+        <!-- Dynamically populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Floating WhatsApp Button -->
+    <a
+      href="https://wa.me/919747506274"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="whatsapp-float"
+      id="whatsappBtn"
+      aria-label="Chat on WhatsApp"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.1/dist/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
